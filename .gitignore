@@ -1,0 +1,71 @@
+
+# IDE and Editor
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+.codeiumignore
+
+# Backend (Spring Boot / Maven)
+backend-spring/target/
+backend-spring/.mvn/
+backend-spring/mvnw
+backend-spring/mvnw.cmd
+backend-spring/.settings/
+backend-spring/.classpath
+backend-spring/.project
+backend-spring/bin/
+backend-spring/build/
+backend-spring/out/
+
+# Frontend (Flutter)
+fronthappy/.dart_tool/
+fronthappy/.flutter-plugins
+fronthappy/.flutter-plugins-dependencies
+fronthappy/.packages
+fronthappy/build/
+fronthappy/ios/
+fronthappy/android/
+fronthappy/linux/
+fronthappy/macos/
+fronthappy/windows/
+fronthappy/web/
+fronthappy/.metadata
+fronthappy/pubspec.lock
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Environment and secrets
+.env
+.env.local
+*.key
+*.pem
+*.p12
+application-local.yml
+application-prod.yml
+
+# Database
+*.db
+*.sqlite
+*.sql.backup
+
+# Documentation (temporary)
+FIXES_SUMMARY.md
+PASSWORD_FIX.md
+RESET_USERS.sql
+FINAL_FIX_INSTRUCTIONS.md
